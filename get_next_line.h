@@ -6,7 +6,7 @@
 /*   By: yderosie <yderosie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/13 16:24:37 by yderosie          #+#    #+#             */
-/*   Updated: 2014/12/26 18:17:18 by yderosie         ###   ########.fr       */
+/*   Updated: 2014/12/04 16:51:53 by yderosie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 # include <unistd.h>
 # include "libft/libft.h"
 
-# define BUFF_SIZE 8
+# define BUFF_SIZE 1
 # define EOF (-1)
 
 int		get_next_line(int const fd, char **line);
